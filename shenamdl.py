@@ -163,9 +163,4 @@ def bucketIntSort(arr, noOfBuckets):
 
 
 if __name__ == '__main__':
-    arr = [9.8, 0.6, 10.1, 1.9, 3.07, 3.04, 5.0, 8.0, 4.8, 7.68]
-    noOfBuckets = 5
-    bucketIntSort(arr, noOfBuckets)
-    print("Sorted array: ", arr)
-
-#3
+    ...
