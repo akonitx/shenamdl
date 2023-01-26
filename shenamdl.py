@@ -161,6 +161,9 @@ def bucketIntSort(arr, noOfBuckets):
 
 a = False
 
+a = True 
+if a:
+    a = 2 + 3
 
 if __name__ == "__main__":
     ...
