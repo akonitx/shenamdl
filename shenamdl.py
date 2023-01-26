@@ -162,5 +162,5 @@ def bucketIntSort(arr, noOfBuckets):
 
 
 
-if __name__ == 2:
+if __name__ == "__main__":
     ...
