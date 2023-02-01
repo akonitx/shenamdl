@@ -5,10 +5,10 @@ def sharp_piramide(
     
     Each level is increminting by one object(item) and returns this result to use for next level incrementing by one obj(item) and so on."""
    
-    a = ""
+    y = ""
     for i in range(height):
-        a += str(block)
-        print(a)
+        y += str(block)
+        print(y)
 
 def factorial(num: int) -> int:
     """Returns factorial from num argument."""
@@ -39,8 +39,8 @@ def bubbleSort(arr):
  
 
     for i in range(ln):
-        a = ln -i -1
-        for j in range(0, a):
+        y = ln -i -1
+        for j in range(0, y):
             
             if arr[j] > arr[j + 1]:
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
@@ -63,19 +63,19 @@ def insertionSort(list1):
    
         # Outer loop to traverse on len(list1) 
         for i in range(1, len(list1)): 
-   
-            a = list1[i] 
+    
+            y = list1[i] 
    
             # Move elements of list1[0 to i-1],
             # which are greater to one position
             # ahead of their current position 
             j = i - 1 
            
-            while j >= 0 and a < list1[j]: 
+            while j >= 0 and y < list1[j]: 
                 list1[j + 1] = list1[j] 
                 j -= 1 
                  
-            list1[j + 1] = a 
+            list1[j + 1] = y 
              
         return list1 
 
@@ -115,17 +115,17 @@ def BinarySearch():
 
 # Bucket sort for numbers
 # having integer part
-def bucketIntSort(arr, noOfBuckets):
+def bucketIntSort(arr, nummbe_of_buckets):
     max_ele = max(arr)
     min_ele = min(arr)
   
     # range(for buckets)
-    rnge = (max_ele - min_ele) / noOfBuckets
+    rnge = (max_ele - min_ele) / nummbe_of_buckets
   
     temp = []
   
     # create empty buckets
-    for i in range(noOfBuckets):
+    for i in range(nummbe_of_buckets):
         temp.append([])
     
     
@@ -159,11 +159,11 @@ def bucketIntSort(arr, noOfBuckets):
 
 
 
-a = False
+y = False
 
-a = True 
-if a:
-    a = 2 + 3
+y = True 
+if y:
+    y = 2 + 3
 
 if __name__ == "__main__":
     ...
