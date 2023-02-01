@@ -39,7 +39,7 @@ def bubbleSort(arr):
  
 
     for i in range(ln):
-        a = ln -i -1
+        a = ln -i -1  #huy
         for j in range(0, a):
             
             if arr[j] > arr[j + 1]:
