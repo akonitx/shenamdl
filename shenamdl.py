@@ -103,14 +103,6 @@ def bucketSort(x):
 			k += 1
 	return x
 
-def BinarySearch():
-	
-	iten = 0
-	while n > 1:
-		n = int(n/2)
-		iten += 1
-	return iten
-
 # Python program for the above approach
 
 # Bucket sort for numbers
