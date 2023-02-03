@@ -14,7 +14,7 @@ def sharp_piramide(
 def factorial(num: int) -> int:
     """Returns factorial from num argument."""
     result = 1
-    mid_result = [result := result * x for x in range(1, num + 1)]
+    mid_result = [result := result * y for y in range(1, num + 1)]
     return result
 
 
@@ -83,7 +83,7 @@ def insertionSort(list1):
     return list1
 
 
-def bucketSort(x):
+def bucketSort(y):
     arr = []
     slot_num = 10  # 10 means 10 slots, each
     # slot's size is 0.1
@@ -91,7 +91,7 @@ def bucketSort(x):
         arr.append([])
 
     # Put array elements in different buckets
-    for j in x:
+    for j in y:
         index_b = int(slot_num * j)
         arr[index_b].append(j)
 
@@ -103,9 +103,9 @@ def bucketSort(x):
     k = 0
     for i in range(slot_num):
         for j in range(len(arr[i])):
-            x[k] = arr[i][j]
+            y[k] = arr[i][j]
             k += 1
-    return x
+    return y
 
 # Python program for the above approach
 
@@ -129,15 +129,15 @@ def bucketIntSort(arr, nummbe_of_buckets):
     # scatter the array elements
     # into the correct bucket
     for i in range(len(arr)):
-        x = (arr[i] - min_ele) / rnge
-        diff = x - int(x)
+        y = (arr[i] - min_ele) / rnge
+        diff = y - int(y)
 
         # append the boundary elements to the lower array
         if (diff == 0 and arr[i] != min_ele):
-            temp[int(x) - 1].append(arr[i])
+            temp[int(y) - 1].append(arr[i])
 
         else:
-            temp[int(x)].append(arr[i])
+            temp[int(y)].append(arr[i])
 
     # Sort each bucket individually
     for i in range(len(temp)):
