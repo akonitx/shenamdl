@@ -1,6 +1,6 @@
 # Sheenaz module
 
-**This module has been created by Oleksiy Pradko and Sheenaz Martinez**
+**By Oleksiy Pradko and Sheenaz Martinez**
 
 id  | first_name |  last_name   |             email             | gender | state_location |  balance
 :------:|:------------:|:--------------:|:-------------------------------:|:--------:|:----------------:|:-----------:
