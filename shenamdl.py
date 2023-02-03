@@ -105,7 +105,7 @@ def bucketSort(y):
         for j in range(len(arr[i])):
             y[k] = arr[i][j]
             k += 1
-    return y  # end
+    return y
 
 # Python program for the above approach
 
