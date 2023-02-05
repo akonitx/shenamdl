@@ -1,1 +1,3 @@
-echo $1 ${2:+-m $2}  #456790 HAHA PZDA hui
+31
+Hui Hui Hui Hui
+31
