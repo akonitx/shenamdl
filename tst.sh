@@ -1,3 +1,5 @@
-val=`expr 2 + 2`
-echo "Total value : $val" #test
-echo $0
+myVariable="GeeksforGeeks"
+
+# If myVariable is set then substitute the value
+echo ${myVariable:+"Nainwal"}
+echo "4. Value of myVariable is $myVariable"
