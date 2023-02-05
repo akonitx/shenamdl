@@ -1,2 +1,3 @@
 val=`expr 2 + 2`
-echo "Total value : $val" #tst
+echo "Total value : $val" #test
+echo $*
