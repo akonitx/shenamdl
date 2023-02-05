@@ -1,1 +1,1 @@
-echo $1 ${2:+-m $2}  #456790 HAHA PZDA
+echo $1 ${2:+-m $2}  #456790 HAHA PZDA hui
