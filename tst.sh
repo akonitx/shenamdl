@@ -1,3 +1,3 @@
 val=`expr 2 + 2`
 echo "Total value : $val" #test
-echo $*
+echo $0
